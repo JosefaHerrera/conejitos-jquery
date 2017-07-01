@@ -1,1 +1,51 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Foro Bunny</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="container">
+        <div class="row">
+            <div class="col offset-s2 s8">
+                <h1>Foro sobre Conejitos</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col offset-s2 s8">
+                <form action="">
+                    <label for="Nombre">Nombre:</label>
+                    <input type="text" id="nombre">
+                    <label for="Mensaje">Mensaje:</label>
+                    <textarea id="mensaje"></textarea>
+                    <button>Enviar</button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="container">
+        <div class="col offset-s3 s6">
+            <div id="comentarios">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
